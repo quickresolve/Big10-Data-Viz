@@ -3,7 +3,9 @@
 This repository hosts two advanced data visualizations analyzing the creation history and lyrical content of college fight songs from Power Five conferences. The project utilizes Python to transform raw data into specialized graph representations that reveal hidden patterns in the songs' origins and shared language.
 
 
-1. Sankey Diagram: Song Origin Path 
+1. Sankey Diagram: Song Origin Path
+
+[Song Origin Path: Student Writer -> Contest -> Official Status](/sankeydiagram.html)
 
 ## Project Description & Story
 
@@ -24,7 +26,9 @@ The diagram tells a story about the standardization of fight songs, showing that
 
 ____________________________________________________________________________________
 
-2. Chord Diagram: Trope Co-occurrence 
+2. Chord Diagram: Trope Co-occurrence
+
+   [Lyrical Trope Co-occurrence in Fight Songs (Chord Diagram)](\trope_co_occurance_chord_diagram_final_labels)
 
 ## Project Description & Story
 This visualization explores the lyrical DNA of college fight songs by examining the co-occurrence of nine common lyrical tropes (e.g., 'fight', 'victory', 'colors', 'rah', 'nonsense'). The visualization is built on a co-occurrence matrix that tallies how many songs feature any given pair of tropes simultaneously.
