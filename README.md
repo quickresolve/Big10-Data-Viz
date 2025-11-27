@@ -50,3 +50,10 @@ The story reveals which terms are most strongly associated with one another. For
 - Ribbons (Links): The connections inside the circle. The thickness of a ribbon indicates the count of songs in which both connected tropes appear.
 
 - Color Tracing: Ribbons inherit the color of their source node, making it easy to trace all connections originating from a single trope.
+
+____________________________________________________________________________________
+
+## 3. Big Ten Fight Songs: Musical Fingerprint
+
+![Musical Fingerprint Polar Plot Image](SongFingerprintPolar.png)
+

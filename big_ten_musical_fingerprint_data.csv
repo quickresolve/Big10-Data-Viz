@@ -1,0 +1,73 @@
+song_name,Metric,Scaled Value
+Oskee-Wow-Wow,bpm,0.8584070796460177
+"Indiana, Our Indiana",bpm,0.752212389380531
+Iowa Fight Song,bpm,0.752212389380531
+Maryland Fight Song,bpm,0.6814159292035398
+The Victors,bpm,0.15929203539823011
+Victory for MSU,bpm,0.7079646017699115
+The Minnesota Rouser,bpm,0.7610619469026549
+Dear Old Nebraska U.,bpm,0.6283185840707965
+Go! U Northwestern,bpm,0.663716814159292
+Buckeye Battle Cry,bpm,1.0
+"Fight On, State",bpm,0.7079646017699115
+Hail Purdue,bpm,0.8407079646017699
+The Bells Must Ring,bpm,0.08849557522123896
+"On, Wisconsin",bpm,0.5929203539823009
+Mighty Oregon,bpm,0.0
+Sons of Westwood,bpm,0.06194690265486724
+"Fight On, USC",bpm,0.08849557522123896
+Bow Down to Washington,bpm,0.654867256637168
+Oskee-Wow-Wow,sec_duration,0.05128205128205121
+"Indiana, Our Indiana",sec_duration,0.08974358974358976
+Iowa Fight Song,sec_duration,0.20512820512820507
+Maryland Fight Song,sec_duration,0.0
+The Victors,sec_duration,0.8461538461538461
+Victory for MSU,sec_duration,0.717948717948718
+The Minnesota Rouser,sec_duration,0.05128205128205121
+Dear Old Nebraska U.,sec_duration,0.4871794871794871
+Go! U Northwestern,sec_duration,0.012820512820512775
+Buckeye Battle Cry,sec_duration,0.423076923076923
+"Fight On, State",sec_duration,0.3205128205128204
+Hail Purdue,sec_duration,0.38461538461538447
+The Bells Must Ring,sec_duration,0.23076923076923073
+"On, Wisconsin",sec_duration,0.9999999999999999
+Mighty Oregon,sec_duration,0.3076923076923076
+Sons of Westwood,sec_duration,0.16666666666666663
+"Fight On, USC",sec_duration,0.05128205128205121
+Bow Down to Washington,sec_duration,0.423076923076923
+Oskee-Wow-Wow,number_fights,0.0
+"Indiana, Our Indiana",number_fights,0.1
+Iowa Fight Song,number_fights,0.9
+Maryland Fight Song,number_fights,0.8
+The Victors,number_fights,0.0
+Victory for MSU,number_fights,0.6000000000000001
+The Minnesota Rouser,number_fights,0.0
+Dear Old Nebraska U.,number_fights,0.0
+Go! U Northwestern,number_fights,0.1
+Buckeye Battle Cry,number_fights,0.1
+"Fight On, State",number_fights,0.5
+Hail Purdue,number_fights,0.0
+The Bells Must Ring,number_fights,1.0
+"On, Wisconsin",number_fights,0.5
+Mighty Oregon,number_fights,0.2
+Sons of Westwood,number_fights,0.30000000000000004
+"Fight On, USC",number_fights,0.5
+Bow Down to Washington,number_fights,0.1
+Oskee-Wow-Wow,trope_count,0.75
+"Indiana, Our Indiana",trope_count,0.375
+Iowa Fight Song,trope_count,0.375
+Maryland Fight Song,trope_count,0.375
+The Victors,trope_count,0.0
+Victory for MSU,trope_count,0.625
+The Minnesota Rouser,trope_count,0.375
+Dear Old Nebraska U.,trope_count,0.125
+Go! U Northwestern,trope_count,0.5
+Buckeye Battle Cry,trope_count,0.625
+"Fight On, State",trope_count,0.625
+Hail Purdue,trope_count,0.25
+The Bells Must Ring,trope_count,1.0
+"On, Wisconsin",trope_count,0.375
+Mighty Oregon,trope_count,0.625
+Sons of Westwood,trope_count,0.625
+"Fight On, USC",trope_count,0.625
+Bow Down to Washington,trope_count,0.5
