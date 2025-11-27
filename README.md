@@ -5,7 +5,7 @@ This repository hosts two advanced data visualizations analyzing the creation hi
 
 1. Sankey Diagram: Song Origin Path
 
-[Song Origin Path: Student Writer -> Contest -> Official Status](/sankeydiagram.html)
+[Song Origin Path: Student Writer -> Contest -> Official Status](/sankey_diagram.html)
 
 ## Project Description & Story
 
@@ -28,7 +28,7 @@ ________________________________________________________________________________
 
 2. Chord Diagram: Trope Co-occurrence
 
-   [Lyrical Trope Co-occurrence in Fight Songs (Chord Diagram)](\trope_co_occurance_chord_diagram_final_labels)
+   [Lyrical Trope Co-occurrence in Fight Songs (Chord Diagram)](/trope_co_occurance_chord_diagram_final_labels)
 
 ## Project Description & Story
 This visualization explores the lyrical DNA of college fight songs by examining the co-occurrence of nine common lyrical tropes (e.g., 'fight', 'victory', 'colors', 'rah', 'nonsense'). The visualization is built on a co-occurrence matrix that tallies how many songs feature any given pair of tropes simultaneously.
