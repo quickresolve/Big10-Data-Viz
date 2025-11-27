@@ -55,5 +55,26 @@ ________________________________________________________________________________
 
 ## 3. Big Ten Fight Songs: Musical Fingerprint
 
-![Musical Fingerprint Polar Plot Image](SongFingerprintPolar.png)
+![Musical Fingerprint Polar Plot Image](SongFingerprintRadar.png)
 
+[Interactive Big 10 Musical Fingerprint Polar Plot](/big_ten_musical_fingerprint_radar_chart_key.html)
+
+### Project Description & Story
+The Big Ten Musical Fingerprint is a Radar Chart visualization comparing the unique musical and lyrical profiles of all 18 Big Ten fight songs.The story behind the visualization is to quantify the blend of lyrical aggression and musical pace across the conference. The fingerprint is built using four key metrics: BPM (tempo), Song Duration (seconds), 'Fight' Word Count, and Total Trope Count (lyrical complexity). Because these metrics are on different scales, they were standardized using Min-Max Scaling (0 > 1) to ensure fair comparison.
+
+
+#### Technical Details
+- Language: Python
+- Libraries: Pandas (for data preparation), SKLearn (for min-max scaling), and Plotly (for interactive chart rendering)
+- Output File: [big_ten_musical_fingerprint_radar_chart_key.html](/big_ten_musical_fingerprint_radar_chart_key.html)
+
+
+#### How to Read the Diagram
+
+To read the diagram, look at the shape formed by each song's line, which represents its unique "fingerprint." Each point on the axis is a scaled value between $0$ (lowest score among Big Ten songs) and $1$ (highest score).
+
+- Large, wide shapes indicate songs that score highly across multiple metrics.
+- A point extending towards the outer edge on the 'BPM' axis indicates a fast song.
+- A point extending towards the outer edge on the 'Trope Count' axis indicates a lyrically complex or dense song.
+
+By examining the orientation of the shape, you can instantly infer a song's dominant characteristics relative to its rivals.

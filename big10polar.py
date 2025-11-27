@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 import plotly.express as px
 
@@ -90,34 +89,40 @@ long_df.to_csv('big_ten_musical_fingerprint_data.csv', index=False)
 
 
 
-# Reload the long_df (since VM execution is separate)
+# Reload the long_df 
 long_df = pd.read_csv('big_ten_musical_fingerprint_data.csv')
 
-# --- Step 6: Generate the Interactive Radar Chart (Plotly) ---
+# --- Step 6: Regenerate the Interactive Radar Chart with Fixes ---
 
-# Generate the Radar Chart
+# Use a color sequence large enough for all 18 songs (e.g., Alphabet has 26 colors)
+color_sequence = px.colors.qualitative.Alphabet 
+
 fig = px.line_polar(
     long_df,
     r='Scaled Value',
     theta='Metric',
     color='song_name',
-    line_close=True, # Connects the last data point back to the first
-    title="Big Ten Fight Songs: Musical Fingerprint (Min-Max Scaled)",
-    hover_data={'Scaled Value': ':.2f'} # Display scaled value to 2 decimal places in hover
+    line_close=True,
+    color_discrete_sequence=color_sequence, # Ensure unique colors for all 18 traces
+    title="Big Ten Fight Songs: Musical Fingerprint (Min-Max Scaled) - Key",
+    hover_data={'Scaled Value': ':.2f'} 
 )
 
 # Customize the chart appearance
-fig.update_traces(fill='toself', opacity=0.3)
+# Increased opacity and line width for better visibility of overlapping traces
+fig.update_traces(fill='toself', opacity=0.7, line=dict(width=2)) 
 fig.update_layout(
     polar=dict(
         radialaxis=dict(
             visible=True,
-            range=[0, 1] # Ensure the radial axis ranges from 0 to 1 (the scaled range)
+            range=[0, 1]
         )
     ),
-    showlegend=False, # Hides the legend because there are too many songs (18)
+    showlegend=True, # Set to True so the user can verify all 18 songs are listed in the legend
+    height=700 # Increased height for better chart area
 )
 
 # Save the interactive HTML file
-fig.write_html("big_ten_musical_fingerprint_radar_chart.html")
+fig.write_html("big_ten_musical_fingerprint_radar_chart_key.html")
 
+print("Generated corrected chart: big_ten_musical_fingerprint_radar_chart_key.html")
