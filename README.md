@@ -7,7 +7,7 @@ This repository hosts two advanced data visualizations analyzing the creation hi
 
 ![Song Origin Path Sankey Image](SongPathSankey.png)
 
-[Interactive Song Origin Path: Student Writer -> Contest -> Official Status](/sankey_diagram.html)
+[Interactive Song Origin Path: Student Writer -> Contest -> Official Status](https://quickresolve.github.io/Big10-Data-Viz/sankey_diagram.html)
 
 ### Project Description & Story
 
@@ -32,7 +32,7 @@ ________________________________________________________________________________
 
 ![Lyrical Trope Co-occurrence Chord Image](SongTropeBokeh.png)
 
-   [Interactive Lyrical Trope Co-occurrence in Fight Songs (Chord Diagram)](/trope_co_occurrence_chord_diagram_final_labels.html)
+   [Interactive Lyrical Trope Co-occurrence in Fight Songs (Chord Diagram)](https://quickresolve.github.io/Big10-Data-Viz/trope_co_occurrence_chord_diagram_final_labels.html)
 
 ### Project Description & Story
 This visualization explores the lyrical DNA of college fight songs by examining the co-occurrence of nine common lyrical tropes (e.g., 'fight', 'victory', 'colors', 'rah', 'nonsense'). The visualization is built on a co-occurrence matrix that tallies how many songs feature any given pair of tropes simultaneously.
@@ -57,7 +57,7 @@ ________________________________________________________________________________
 
 ![Musical Fingerprint Polar Plot Image](SongFingerprintRadar.png)
 
-[Interactive Big 10 Musical Fingerprint Polar Plot](/big_ten_musical_fingerprint_radar_chart_key.html)
+[Interactive Big 10 Musical Fingerprint Polar Plot](https://quickresolve.github.io/Big10-Data-Viz/big_ten_musical_fingerprint_radar_chart_key.html)
 
 ### Project Description & Story
 The Big Ten Musical Fingerprint is a Radar Chart visualization comparing the unique musical and lyrical profiles of all 18 Big Ten fight songs.The story behind the visualization is to quantify the blend of lyrical aggression and musical pace across the conference. The fingerprint is built using four key metrics: BPM (tempo), Song Duration (seconds), 'Fight' Word Count, and Total Trope Count (lyrical complexity). Because these metrics are on different scales, they were standardized using Min-Max Scaling (0 > 1) to ensure fair comparison.
