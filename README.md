@@ -30,7 +30,7 @@ ________________________________________________________________________________
 
 ## 2. Chord Diagram: Trope Co-occurrence
 
-![Lyrical Trope Co-occurrence Chord Image](SongPathSankey.png)
+![Lyrical Trope Co-occurrence Chord Image](SongTropeBokeh.png)
 
    [Interactive Lyrical Trope Co-occurrence in Fight Songs (Chord Diagram)](/trope_co_occurrence_chord_diagram_final_labels.html)
 
