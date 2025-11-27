@@ -28,7 +28,7 @@ ________________________________________________________________________________
 
 2. Chord Diagram: Trope Co-occurrence
 
-   [Lyrical Trope Co-occurrence in Fight Songs (Chord Diagram)](/trope_co_occurance_chord_diagram_final_labels)
+   [Lyrical Trope Co-occurrence in Fight Songs (Chord Diagram)](/trope_co_occurrence_chord_diagram_final_labels.html)
 
 ## Project Description & Story
 This visualization explores the lyrical DNA of college fight songs by examining the co-occurrence of nine common lyrical tropes (e.g., 'fight', 'victory', 'colors', 'rah', 'nonsense'). The visualization is built on a co-occurrence matrix that tallies how many songs feature any given pair of tropes simultaneously.
