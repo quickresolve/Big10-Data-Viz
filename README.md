@@ -9,7 +9,7 @@ This repository hosts two advanced data visualizations analyzing the creation hi
 
 ## Project Description & Story
 
-This visualization maps the journey a fight song takes from its inception to official status. The flow represents three sequential decision points, which are the main stages of a song's creation history: Was the author a Student Writer? to Was the song chosen via a Contest? to Is the song the Official Song?
+This visualization maps the journey a fight song takes from its inception to official status. The flow represents three sequential decision points, which are the main stages of a song's creation history: Was the author a Student Writer? > Was the song chosen via a Contest? > Is the song the Official Song?
 
 The diagram tells a story about the standardization of fight songs, showing that most songs—regardless of whether they were written by a student—gain official status by bypassing a formal contest. The width of the flow ribbons makes these dominant paths immediately apparent.
 
@@ -17,7 +17,7 @@ The diagram tells a story about the standardization of fight songs, showing that
 ### Technical Details
 - Language: Python 
 - Libraries: Pandas (for data aggregation), Plotly (for interactive rendering)
-- Output File: sankey_diagram_final.html
+- Output File: [sankey_diagram_final.html](/sankey_diagram.html)
 
 ### How to Read the Diagram
 - Nodes (Boxes): The vertical columns representing the three stages ('Student Writer', 'Contest Chosen', 'Official Song').
@@ -38,7 +38,7 @@ The story reveals which terms are most strongly associated with one another. For
 ### Technical Details
 - Language: Python
 - Libraries: Pandas (for matrix calculation), HoloViews (for graph visualization), Bokeh (rendering backend)
-- Output File: trope_co_occurrence_chord_diagram_final_labels.html
+- Output File: [trope_co_occurrence_chord_diagram_final_labels.html](/trope_co_occurrence_chord_diagram_final_labels.html)
 
 ### How to Read the Diagram
 - Nodes (Segments): The colored segments around the circle, each representing one of the nine lyrical tropes.
