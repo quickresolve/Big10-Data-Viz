@@ -78,3 +78,38 @@ To read the diagram, look at the shape formed by each song's line, which represe
 - A point extending towards the outer edge on the 'Trope Count' axis indicates a lyrically complex or dense song.
 
 By examining the orientation of the shape, you can instantly infer a song's dominant characteristics relative to its rivals.
+
+
+____________________________________________________________________________________
+
+## 4. Song 3D Aggression-Pace-Complexity Signature
+
+
+![Song Signature 3D Plot Image](Song3DSignatureRotated.png)
+
+[Interactive Big 10 Musical Fingerprint Polar Plot](https://quickresolve.github.io/Big10-Data-Viz/fight_song_3d_signature_space.html)
+
+
+### Project Description & Story
+The Songs 3D Signature Plot visualizes the unique musical and lyrical identity of college fight songs across five major conferences, providing a clear Aggression-Pace-Complexity Signature for each institution.
+
+The story behind this visualization is to see if conference membership dictates a measurable style of fight song. We hypothesize that songs from the same conference (e.g., SEC or Big Ten) will cluster together in 3D space, revealing a shared musical and lyrical culture.
+
+#### Technical Details
+- Language: Python
+- Libraries: Pandas (data handling) and Plotly (for interactive 3D rendering)
+- Output File: [fight_song_3d_signature_space.html](/fight_song_3d_signature_space.html)
+
+#### How to Read the Diagram
+
+The plot maps each fight song as a single data point in three-dimensional space:
+
+- X-axis (Pace): Measures song speed using bpm (Beats Per Minute).
+
+- Y-axis (Aggression): Measures lyrical intensity using number_fights (count of the word "fight").
+
+- Z-axis (Complexity): Measures lyrical density using trope_count (total count of different lyrical themes).
+
+- Color: Identifies the conference of the school.
+
+To infer meaning, you rotate the plot to look for clustering: if points of the same color form a tight cloud, that conference has a well-defined signature (e.g., high-BPM, low-Aggression songs). Outliers—points far from any cluster—represent songs that deviate significantly from typical college fight song norms. Hover over any point to reveal the exact School and Song Name.
