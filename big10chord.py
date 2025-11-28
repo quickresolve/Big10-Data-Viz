@@ -3,15 +3,14 @@ from holoviews import opts
 import pandas as pd
 hv.extension('bokeh')
 
-# --- Define Node Colors ---
-trope_colors = [
+# --- Define Node Colors (9 colors) ---
+trope_colors_list = [
     '#e41a1c', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00',
     '#ffff33', '#a65628', '#f781bf', '#999999'
 ]
 
-# --- Load and Transform Co-occurrence Matrix (Assumed correct) ---
+# --- Load and Transform Co-occurrence Matrix ---
 co_occurrence_matrix = pd.read_csv('trope_co_occurrence_matrix.csv', index_col=0)
-
 edge_list_df = co_occurrence_matrix.stack().reset_index()
 edge_list_df.columns = ['source', 'target', 'value']
 edge_list_df = edge_list_df[edge_list_df['source'] != edge_list_df['target']]
@@ -23,15 +22,14 @@ chord = hv.Chord(edge_list_df, ['source', 'target'], 'value')
 # Apply styling options
 chord.opts(
     opts.Chord(
-        # FINAL FIX: Pass the string name 'source' directly. Bokeh should recognize this as a field name.
-        node_color='source', 
-        cmap=trope_colors,
-        
-        # Ribbons Coloring: Apply the same fix to the edge color.
-        edge_color='source',
-        edge_cmap=trope_colors,
+        # Coloring properties
+        node_color='index', 
+        cmap=trope_colors_list,
+        edge_color='source', 
+        edge_cmap=trope_colors_list,
         
         # Node and Label Settings
+        labels='index',
         label_text_font_size='10pt',
         padding=0.1,
         
@@ -44,7 +42,5 @@ chord.opts(
 )
 
 # --- Save to HTML ---
-output_filename = 'trope_co_occurrence_chord_diagram_final_labels.html'
+output_filename = 'trope_co_occurrence_chord_diagram_final_error_free.html'
 hv.save(chord, output_filename)
-
-print(f"\nSuccessfully generated the Chord Diagram HTML file: {output_filename}")
